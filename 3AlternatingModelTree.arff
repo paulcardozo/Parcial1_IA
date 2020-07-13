@@ -1,0 +1,31 @@
+@relation infoAlumnos-weka.filters.unsupervised.attribute.RemoveType-Tstring
+
+@attribute sexo {M,F}
+@attribute departamento {'LA PAZ',PANDO,ORURO,POTOSI,'SANTA CRUZ',COCHABAMBA,BENI}
+@attribute notaPromedio numeric
+@attribute edad numeric
+
+@data
+M,'LA PAZ',63,23
+M,'LA PAZ',52,24
+F,'LA PAZ',60,22
+F,PANDO,77,23
+M,ORURO,65,24
+F,POTOSI,47,25
+M,'LA PAZ',75,27
+F,'LA PAZ',77,23
+M,'LA PAZ',76,25
+M,COCHABAMBA,78,24
+F,COCHABAMBA,72,22
+F,'SANTA CRUZ',82,26
+M,'LA PAZ',67,26
+F,'SANTA CRUZ',81,23
+F,'LA PAZ',91,22
+F,BENI,72,25
+M,'LA PAZ',52,23
+M,'SANTA CRUZ',77,24
+F,ORURO,49,25
+F,'LA PAZ',39,24
+F,'LA PAZ',77,24
+M,BENI,53,25
+M,'SANTA CRUZ',42,26

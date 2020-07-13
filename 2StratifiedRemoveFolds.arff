@@ -1,0 +1,13 @@
+@relation infoAlumnos-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N10-F1
+
+@attribute ci string
+@attribute nombreCompleto string
+@attribute sexo {M,F}
+@attribute departamento {'LA PAZ',PANDO,ORURO,POTOSI,'SANTA CRUZ',COCHABAMBA,BENI}
+@attribute notaPromedio numeric
+@attribute edad numeric
+
+@data
+4860120,'CARDOZO LAUREL CARLOS PAUL',M,'LA PAZ',63,23
+1239845,'MOLLEJAS RAMIREZ MANUEL',M,'LA PAZ',52,24
+65123788,'ARTEAGA PEREZ ANDREA CARLA',F,'LA PAZ',60,22

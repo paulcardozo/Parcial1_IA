@@ -4,13 +4,11 @@ Created on Sat Jul 11 20:57:39 2020
 
 @author: paulc
 """
-# Load the Pandas libraries with alias 'pd' 
+
 import pandas as pd 
 import numpy as np
-from scipy import stats
-# Read data from file 'filename.csv' 
-# (in the same directory that your python process is based)
-# Control delimiters, rows, column names with read_csv (see later) 
+
+
 data = pd.read_csv("infoAlumnos.csv")
 vector = data.to_numpy()
 nota = vector[:,4].mean()
