@@ -19,4 +19,4 @@ cleanup_data = {"sexo":{"M":0,"F":1},
                 "departamento":{"LA PAZ":0, "PANDO":1,"ORURO":2,"POTOSI":3,"COCHABAMBA":4,
                                 "SANTA CRUZ":5,"BENI":6}}
 obj_data.replace(cleanup_data, inplace=True)
-print(obj_data)
+print(obj_data.dtypes)
